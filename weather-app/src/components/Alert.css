@@ -1,0 +1,25 @@
+/* src/components/Alert.css */
+.alert-box {
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 8px;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #fff;
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.alert-exceeds {
+    background-color: #ff4d4d; /* Red color for high temperature alert */
+    border: 1px solid #ff0000;
+}
+
+.alert-safe {
+    background-color: #4CAF50; /* Green color for safe temperature */
+    border: 1px solid #388e3c;
+}

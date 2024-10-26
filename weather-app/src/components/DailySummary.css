@@ -1,0 +1,50 @@
+/* src/components/DailySummary.css */
+.daily-summary {
+    width: 90%;
+    max-width: 720px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f8ff; /* Light background */
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.daily-summary h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.daily-summary ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.daily-summary li {
+    padding: 12px;
+    margin-bottom: 8px;
+    background-color: #e8f4fa; /* Light blue background for each item */
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.daily-summary li:last-child {
+    margin-bottom: 0;
+}
+
+.city {
+    font-weight: bold;
+    color: #333;
+    margin-right: 10px;
+}
+
+.temp, .condition {
+    color: #555;
+    font-size: 0.95em;
+}
